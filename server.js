@@ -4,6 +4,7 @@ const moment = require("moment");
 const validator = require("email-validator");
 
 const app = express();
+// client/ hotel
 
 app.use(express.json());
 app.use(cors());
